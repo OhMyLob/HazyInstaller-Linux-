@@ -1,5 +1,6 @@
 from Tkinter import * 
 import os
+import time
 
 class GUI(Frame):
 	def __init__(self):
