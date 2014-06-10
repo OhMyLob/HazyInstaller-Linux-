@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="2.24"/>
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkWindow" id="window2">
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">HazyInstaller - Bootloader</property>
+    <property name="window_position">center</property>
+    <property name="icon">Icon-01.png</property>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkImage" id="image1">
+            <property name="width_request">126</property>
+            <property name="height_request">210</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">Device_bootloader-01.png</property>
+          </object>
+          <packing>
+            <property name="x">54</property>
+            <property name="y">66</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="image2">
+            <property name="width_request">141</property>
+            <property name="height_request">190</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">Device_bootloader_done-01.png</property>
+          </object>
+          <packing>
+            <property name="x">265</property>
+            <property name="y">71</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label1">
+            <property name="width_request">238</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Is your bootloader unlocked?</property>
+          </object>
+          <packing>
+            <property name="x">120</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button2">
+            <property name="label" translatable="yes">No</property>
+            <property name="width_request">100</property>
+            <property name="height_request">43</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_action_appearance">False</property>
+            <signal name="clicked" handler="on_button2_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">65</property>
+            <property name="y">286</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="image3">
+            <property name="width_request">446</property>
+            <property name="height_request">26</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">DOWN.png</property>
+          </object>
+          <packing>
+            <property name="y">342</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="image4">
+            <property name="width_request">449</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">UP.png</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="button3">
+            <property name="label" translatable="yes">Yes</property>
+            <property name="width_request">100</property>
+            <property name="height_request">43</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_action_appearance">False</property>
+            <signal name="clicked" handler="on_button3_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">285</property>
+            <property name="y">286</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

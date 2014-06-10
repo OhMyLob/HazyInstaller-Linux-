@@ -13,6 +13,7 @@
     <property name="title" translatable="yes">HazyInstaller</property>
     <property name="resizable">False</property>
     <property name="window_position">center</property>
+    <property name="icon">Icon-01.png</property>
     <child>
       <object class="GtkFixed" id="fixed1">
         <property name="visible">True</property>

@@ -42,12 +42,12 @@ class GUI:
 
   ### NEXUS 4 ###
   def on_button4_clicked(self, object, data=None):
-    os.system("python n4.py")
-    self.window1.destroy()
-
-  ### NEXUS 5 ###
-  def on_button5_clicked(self, object, data=None):
-    os.system("python n5.py")
+    self.gladefile = "devicegui.glade"
+    self.builder = gtk.Builder()
+    self.builder.add_from_file(self.gladefile)
+    self.builder.connect_signals(self)
+    self.window = self.builder.get_object("window1")
+    self.window.show()
     self.window1.destroy()
 
     

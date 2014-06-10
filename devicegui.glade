@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="2.24"/>
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkWindow" id="window1">
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">HazyInstaller - Device</property>
+    <property name="window_position">center</property>
+    <property name="icon">Icon-01.png</property>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkImage" id="image1">
+            <property name="width_request">174</property>
+            <property name="height_request">278</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">n4-01.png</property>
+          </object>
+          <packing>
+            <property name="x">31</property>
+            <property name="y">48</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="image2">
+            <property name="width_request">172</property>
+            <property name="height_request">267</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">n5-01.png</property>
+          </object>
+          <packing>
+            <property name="x">312</property>
+            <property name="y">60</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button4">
+            <property name="label" translatable="yes">Nexus 4</property>
+            <property name="width_request">100</property>
+            <property name="height_request">58</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_action_appearance">False</property>
+            <signal name="clicked" handler="on_button4_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">63</property>
+            <property name="y">331</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button5">
+            <property name="label" translatable="yes">Nexus 5</property>
+            <property name="width_request">100</property>
+            <property name="height_request">60</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_action_appearance">False</property>
+            <signal name="clicked" handler="on_button5_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">343</property>
+            <property name="y">331</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="image3">
+            <property name="width_request">479</property>
+            <property name="height_request">32</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">DOWN.png</property>
+          </object>
+          <packing>
+            <property name="y">398</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="image4">
+            <property name="width_request">509</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">UP.png</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label1">
+            <property name="width_request">221</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Which device do you have?</property>
+          </object>
+          <packing>
+            <property name="x">152</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
