@@ -1,6 +1,6 @@
-echo ==========================
-echo 			           
-echo WELCOME TO HAZY INSTALLER
-echo 			           
-echo ==========================
+echo #########################
+echo
+echo WELCOME TO HAZYINSTALLER
+echo
+echo #########################
 python mainmaingui.py
