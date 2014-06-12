@@ -40,8 +40,8 @@
         <child>
           <object class="GtkButton" id="button4">
             <property name="label" translatable="yes">Nexus 4</property>
-            <property name="width_request">100</property>
-            <property name="height_request">58</property>
+            <property name="width_request">112</property>
+            <property name="height_request">47</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -49,15 +49,15 @@
             <signal name="clicked" handler="on_button4_clicked" swapped="no"/>
           </object>
           <packing>
-            <property name="x">63</property>
-            <property name="y">331</property>
+            <property name="x">60</property>
+            <property name="y">342</property>
           </packing>
         </child>
         <child>
           <object class="GtkButton" id="button5">
             <property name="label" translatable="yes">Nexus 5</property>
-            <property name="width_request">100</property>
-            <property name="height_request">60</property>
+            <property name="width_request">110</property>
+            <property name="height_request">47</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -66,7 +66,7 @@
           </object>
           <packing>
             <property name="x">343</property>
-            <property name="y">331</property>
+            <property name="y">344</property>
           </packing>
         </child>
         <child>
