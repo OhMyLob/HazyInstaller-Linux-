@@ -1,29 +1,19 @@
 To Run HazyInstaller execute in a terminal: 
                                              
-- cd hazyinstallerpath                     
-  (change hazyinstallerpath)		       
+- ./runme.sh       
 
-- ./runme.sh                                
-                                                                                                   
-TIP: you can use your arrow keys to select your choice (for example: right key = right choice) ;)  
-                                                                                                     
-                                             
-To enable the battery percentage in the statusbar:  
- 						      
-- cd hazyinstallerpath 			      
-    						      
-    (change hazyinstallerpath)		              
- 						      
-- ./percentageenabler.sh 			      
-          
-                                                        
-To disable the battery percentage in the statusbar:   
- 						        	 
-- cd hazyinstallerpath                                
-   					                
-   (change hazyinstallerpath)			        
- 						        
-- ./percentagedisabler.sh			       
+
+ABOUT US:
+
+-Matteo Lobello: Founder, CEO, Developer    
+-Luca Pensabene: Co-Founder, Developer
+-Francesco Colella: Developer
+-Adriano Loiacono: Graphic Designer
+-Matteo Munda: Developer
+-Davide Dellai: Developer
+-Salvatore Festa: Developer
+-Giovanni Chelli: Social Media Ambassador                  
+
 
  
 
