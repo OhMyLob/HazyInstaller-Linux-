@@ -46,7 +46,7 @@
             <property name="label" translatable="yes">Is your bootloader unlocked?</property>
           </object>
           <packing>
-            <property name="x">120</property>
+            <property name="x">104</property>
           </packing>
         </child>
         <child>

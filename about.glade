@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="2.24"/>
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkWindow" id="window1">
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">HazyInstaller - About</property>
+    <property name="resizable">False</property>
+    <property name="window_position">center</property>
+    <property name="icon">Icon-01.png</property>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkLabel" id="label1">
+            <property name="width_request">332</property>
+            <property name="height_request">31</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Matteo Lobello: Founder, CEO, Developer</property>
+            <attributes>
+              <attribute name="style" value="italic"/>
+              <attribute name="weight" value="ultralight"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">27</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="image1">
+            <property name="width_request">544</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">UP.png</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label2">
+            <property name="width_request">322</property>
+            <property name="height_request">31</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Luca Pensabene: Co-Founder, Developer</property>
+            <attributes>
+              <attribute name="style" value="italic"/>
+              <attribute name="weight" value="ultralight"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">57</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label3">
+            <property name="width_request">253</property>
+            <property name="height_request">25</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Francesco Colella: Developer</property>
+            <attributes>
+              <attribute name="style" value="italic"/>
+              <attribute name="weight" value="ultralight"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">91</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label4">
+            <property name="width_request">292</property>
+            <property name="height_request">30</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Adriano Loiacono: Graphic Designer</property>
+            <attributes>
+              <attribute name="style" value="italic"/>
+              <attribute name="weight" value="ultralight"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">119</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label5">
+            <property name="width_request">237</property>
+            <property name="height_request">32</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Matteo Munda: Developer</property>
+            <attributes>
+              <attribute name="style" value="italic"/>
+              <attribute name="weight" value="ultralight"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">148</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label6">
+            <property name="width_request">225</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Davide Dellai: Developer</property>
+            <attributes>
+              <attribute name="style" value="italic"/>
+              <attribute name="weight" value="ultralight"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">185</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label7">
+            <property name="width_request">330</property>
+            <property name="height_request">37</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Giovanni Chelli: Social Media Ambassador</property>
+            <attributes>
+              <attribute name="style" value="italic"/>
+              <attribute name="weight" value="ultralight"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">207</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="image2">
+            <property name="width_request">544</property>
+            <property name="height_request">22</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">DOWN.png</property>
+          </object>
+          <packing>
+            <property name="y">307</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button1">
+            <property name="label" translatable="yes">Exit</property>
+            <property name="width_request">98</property>
+            <property name="height_request">38</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_action_appearance">False</property>
+            <signal name="clicked" handler="on_button1_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">392</property>
+            <property name="y">265</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="image3">
+            <property name="width_request">258</property>
+            <property name="height_request">240</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">pupino-01.png</property>
+          </object>
+          <packing>
+            <property name="x">288</property>
+            <property name="y">26</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

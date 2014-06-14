@@ -99,6 +99,22 @@ Hazy! Enjoy it and #lovehazy!</property>
             <property name="y">11</property>
           </packing>
         </child>
+        <child>
+          <object class="GtkButton" id="button2">
+            <property name="label" translatable="yes">About</property>
+            <property name="width_request">99</property>
+            <property name="height_request">42</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_action_appearance">False</property>
+            <signal name="clicked" handler="on_button2_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">275</property>
+            <property name="y">229</property>
+          </packing>
+        </child>
       </object>
     </child>
   </object>
