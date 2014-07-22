@@ -71,7 +71,7 @@
         </child>
         <child>
           <object class="GtkImage" id="image3">
-            <property name="width_request">637</property>
+            <property name="width_request">546</property>
             <property name="height_request">32</property>
             <property name="visible">True</property>
             <property name="can_focus">False</property>
@@ -83,7 +83,7 @@
         </child>
         <child>
           <object class="GtkImage" id="image4">
-            <property name="width_request">634</property>
+            <property name="width_request">522</property>
             <property name="height_request">20</property>
             <property name="visible">True</property>
             <property name="can_focus">False</property>
@@ -103,7 +103,8 @@
             </attributes>
           </object>
           <packing>
-            <property name="x">213</property>
+            <property name="x">155</property>
+            <property name="y">1</property>
           </packing>
         </child>
         <child>
