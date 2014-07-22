@@ -20,8 +20,8 @@
             <property name="pixbuf">n4-01.png</property>
           </object>
           <packing>
-            <property name="x">31</property>
-            <property name="y">48</property>
+            <property name="x">1</property>
+            <property name="y">45</property>
           </packing>
         </child>
         <child>
@@ -33,8 +33,8 @@
             <property name="pixbuf">n5-01.png</property>
           </object>
           <packing>
-            <property name="x">312</property>
-            <property name="y">60</property>
+            <property name="x">179</property>
+            <property name="y">53</property>
           </packing>
         </child>
         <child>
@@ -49,8 +49,8 @@
             <signal name="clicked" handler="on_button4_clicked" swapped="no"/>
           </object>
           <packing>
-            <property name="x">60</property>
-            <property name="y">342</property>
+            <property name="x">32</property>
+            <property name="y">338</property>
           </packing>
         </child>
         <child>
@@ -65,13 +65,13 @@
             <signal name="clicked" handler="on_button5_clicked" swapped="no"/>
           </object>
           <packing>
-            <property name="x">343</property>
-            <property name="y">344</property>
+            <property name="x">209</property>
+            <property name="y">339</property>
           </packing>
         </child>
         <child>
           <object class="GtkImage" id="image3">
-            <property name="width_request">479</property>
+            <property name="width_request">637</property>
             <property name="height_request">32</property>
             <property name="visible">True</property>
             <property name="can_focus">False</property>
@@ -83,7 +83,7 @@
         </child>
         <child>
           <object class="GtkImage" id="image4">
-            <property name="width_request">509</property>
+            <property name="width_request">634</property>
             <property name="height_request">20</property>
             <property name="visible">True</property>
             <property name="can_focus">False</property>
@@ -93,13 +93,73 @@
         <child>
           <object class="GtkLabel" id="label1">
             <property name="width_request">221</property>
-            <property name="height_request">80</property>
+            <property name="height_request">61</property>
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="label" translatable="yes">Which device do you have?</property>
+            <property name="label" translatable="yes">Which device have you got?</property>
+            <attributes>
+              <attribute name="style" value="oblique"/>
+              <attribute name="weight" value="semibold"/>
+            </attributes>
           </object>
           <packing>
-            <property name="x">152</property>
+            <property name="x">213</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="image6">
+            <property name="width_request">169</property>
+            <property name="height_request">278</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">n5-01.png</property>
+          </object>
+          <packing>
+            <property name="x">358</property>
+            <property name="y">48</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button2">
+            <property name="label" translatable="yes">OnePlus One</property>
+            <property name="width_request">109</property>
+            <property name="height_request">43</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_action_appearance">False</property>
+            <signal name="clicked" handler="on_button1plus1_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">391</property>
+            <property name="y">341</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button3">
+            <property name="width_request">32</property>
+            <property name="height_request">31</property>
+            <property name="visible">True</property>
+            <property name="sensitive">False</property>
+            <property name="can_focus">False</property>
+            <property name="receives_default">False</property>
+            <property name="tooltip_text" translatable="yes"> When you press a 
+button, look at the
+          terminal!</property>
+            <property name="use_action_appearance">False</property>
+            <property name="relief">none</property>
+            <child>
+              <object class="GtkImage" id="image7">
+                <property name="visible">True</property>
+                <property name="sensitive">False</property>
+                <property name="can_focus">False</property>
+                <property name="stock">gtk-info</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">13</property>
+            <property name="y">22</property>
           </packing>
         </child>
       </object>

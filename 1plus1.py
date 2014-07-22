@@ -1,11 +1,11 @@
 import os
 
 print " "
-#### CHANGE DOWNLOAD LINK ####
-if os.path.exists("HazyROM.zip", "openrecovery-twrp-2.7.1.0-hammerhead.img"):
-	os.remove("HazyROM.zip", "openrecovery-twrp-2.7.1.0-hammerhead.img")
+#### CHANGE DOWNLOAD LINKS & NAMES ####
+if os.path.exists("HazyROM.zip", "openrecovery-twrp-2.7.1.0-bacon.img"):
+	os.remove("HazyROM.zip", "openrecovery-twrp-2.7.1.0-bacon.img")
 	os.system("wget http://fs1.d-h.st/HazyROM.zip")
-	os.system("wget http://techerrata.com/file/twrp2/hammerhead/openrecovery-twrp-2.7.1.0-hammerhead.img")
+	os.system("wget http://techerrata.com/file/twrp2/bacon/openrecovery-twrp-2.7.1.0-bacon.img")
 	print "Done..."
 	print " "
 	print "Rebooting to bootloader..."
@@ -24,8 +24,8 @@ if os.path.exists("HazyROM.zip", "openrecovery-twrp-2.7.1.0-hammerhead.img"):
 	os.system("python done.py")
 
 else:   
-	os.system("wget http://fs1.d-h.st/HazyROM.zip")
-	os.system("wget http://techerrata.com/file/twrp2/hammerhead/openrecovery-twrp-2.7.1.0-hammerhead.img")
+	os.system("wget http://fs1.d-h.st/HazyROM.zip") 
+	os.system("wget http://techerrata.com/file/twrp2/bacon/openrecovery-twrp-2.7.1.0-bacon.img")
 	print "Done..."
 	print " "
 	print "Rebooting to bootloader..."

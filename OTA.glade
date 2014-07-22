@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="2.24"/>
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkWindow" id="window1">
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">HazyInstaller - Update</property>
+    <property name="resizable">False</property>
+    <property name="icon">Icon-01.png</property>
+    <property name="type_hint">dialog</property>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkButton" id="button1">
+            <property name="label" translatable="yes">Update!</property>
+            <property name="width_request">126</property>
+            <property name="height_request">43</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_action_appearance">False</property>
+            <signal name="clicked" handler="on_button1_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">35</property>
+            <property name="y">310</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label1">
+            <property name="width_request">421</property>
+            <property name="height_request">62</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="ypad">3</property>
+            <property name="label" translatable="yes">There's a new update!</property>
+            <attributes>
+              <attribute name="style" value="oblique"/>
+              <attribute name="weight" value="semibold"/>
+              <attribute name="size" value="27500"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">29</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label2">
+            <property name="width_request">211</property>
+            <property name="height_request">105</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Check the changelog 
+       to know more
+ about this update</property>
+            <attributes>
+              <attribute name="style" value="oblique"/>
+              <attribute name="weight" value="normal"/>
+              <attribute name="size" value="15300"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">134</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="image2">
+            <property name="width_request">440</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">UP.png</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkImage" id="image3">
+            <property name="width_request">437</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">DOWN.png</property>
+          </object>
+          <packing>
+            <property name="x">2</property>
+            <property name="y">421</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="image1">
+            <property name="width_request">252</property>
+            <property name="height_request">300</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">updates_download.png</property>
+          </object>
+          <packing>
+            <property name="x">182</property>
+            <property name="y">83</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label3">
+            <property name="width_request">194</property>
+            <property name="height_request">59</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">    See the terminal 
+       when you've 
+       pressed this
+</property>
+            <attributes>
+              <attribute name="style" value="oblique"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">355</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

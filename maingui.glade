@@ -43,7 +43,12 @@
             <property name="height_request">80</property>
             <property name="visible">True</property>
             <property name="can_focus">False</property>
+            <property name="yalign">0.47999998927116394</property>
             <property name="label" translatable="yes">Is your bootloader unlocked?</property>
+            <attributes>
+              <attribute name="style" value="oblique"/>
+              <attribute name="weight" value="semibold"/>
+            </attributes>
           </object>
           <packing>
             <property name="x">104</property>
@@ -100,6 +105,26 @@
           <packing>
             <property name="x">285</property>
             <property name="y">286</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label2">
+            <property name="width_request">114</property>
+            <property name="height_request">92</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="xalign">0.47999998927116394</property>
+            <property name="label" translatable="yes">If your choice is
+  "No", look at 
+   the terminal.</property>
+            <attributes>
+              <attribute name="style" value="oblique"/>
+              <attribute name="weight" value="normal"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">174</property>
+            <property name="y">254</property>
           </packing>
         </child>
       </object>

@@ -20,29 +20,32 @@
             <property name="pixbuf">Device_done-01.png</property>
           </object>
           <packing>
-            <property name="x">78</property>
-            <property name="y">50</property>
+            <property name="x">35</property>
+            <property name="y">40</property>
           </packing>
         </child>
         <child>
           <object class="GtkLabel" id="label1">
-            <property name="width_request">208</property>
-            <property name="height_request">126</property>
+            <property name="width_request">325</property>
+            <property name="height_request">166</property>
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="label" translatable="yes">Yuhuuuuuu!!
+            <property name="yalign">0.46000000834465027</property>
+            <property name="label" translatable="yes">Wohoooooooo!!!!
 
 You have installed 
-Hazy! Enjoy it and #lovehazy!</property>
+Hazy! 
+Enjoy it and #lovehazy!</property>
             <property name="use_underline">True</property>
             <attributes>
               <attribute name="style" value="italic"/>
               <attribute name="weight" value="ultraheavy"/>
+              <attribute name="size" value="19600"/>
             </attributes>
           </object>
           <packing>
-            <property name="x">251</property>
-            <property name="y">96</property>
+            <property name="x">170</property>
+            <property name="y">43</property>
           </packing>
         </child>
         <child>
@@ -57,8 +60,8 @@ Hazy! Enjoy it and #lovehazy!</property>
             <signal name="clicked" handler="on_button1_clicked" swapped="no"/>
           </object>
           <packing>
-            <property name="x">399</property>
-            <property name="y">229</property>
+            <property name="x">359</property>
+            <property name="y">228</property>
           </packing>
         </child>
         <child>
@@ -96,7 +99,6 @@ Hazy! Enjoy it and #lovehazy!</property>
           </object>
           <packing>
             <property name="x">29</property>
-            <property name="y">11</property>
           </packing>
         </child>
         <child>
@@ -111,8 +113,8 @@ Hazy! Enjoy it and #lovehazy!</property>
             <signal name="clicked" handler="on_button2_clicked" swapped="no"/>
           </object>
           <packing>
-            <property name="x">275</property>
-            <property name="y">229</property>
+            <property name="x">212</property>
+            <property name="y">228</property>
           </packing>
         </child>
       </object>
