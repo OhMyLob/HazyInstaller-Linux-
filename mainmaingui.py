@@ -5,9 +5,7 @@ from email.MIMEMultipart import MIMEMultipart
 from email.Utils import COMMASPACE
 from email.MIMEBase import MIMEBase
 from email.parser import Parser
-from email.MIMEImage import MIMEImage
 from email.MIMEText import MIMEText
-from email.MIMEAudio import MIMEAudio
 import mimetypes
 import email
 
